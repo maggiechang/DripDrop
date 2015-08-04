@@ -6,6 +6,7 @@
 	
 	<head lang="en">
 		<meta charset=utf-8/>
+		<title>Login</title>
 		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
 		<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
 		<script src="tabletopData.js"></script>
@@ -18,6 +19,7 @@
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	    <script src="dripdrop.js" type="text/javascript"></script>
+	    <link rel="shortcut icon" href="http://i62.tinypic.com/24llicl.png">
 	</head>
 	
 	<body>
@@ -49,17 +51,30 @@
 						<td style="width:60px"><input id="aboutusbutton" type="image" src="http://i57.tinypic.com/280nqxx.png" alt="aboutusbutton" width="45" height="35"></td>
 					</tr>
 				</table></center>
+				
+	 	<!-- </div></center>
+ -->
+
+
 			<center><div class = "login">
 				<h2> Welcome! </h2>
 				Username: <input type="text" id="un" name="Username"><br>
 				Password: <input type="password" id="pwd" name="Password"></br><br>
-				<input id="submit" type="submit" value="Sign in"> 
-				<a href="https://docs.google.com/a/kippbastudent.org/forms/d/1JV5-3tUrylWU6ZZ3oeN7nbOc0O4pTYS3vdeL3e9C4wc/viewform"><input id = "submit" type = "submit" value="Sign up"></a>
+				<input id="submmit" type="submit" value="Sign in" onclick="submitClick();"> 
+				<a href="https://docs.google.com/a/kippbastudent.org/forms/d/1JV5-3tUrylWU6ZZ3oeN7nbOc0O4pTYS3vdeL3e9C4wc/viewform" target="_blank"><input id = "		submit" type = "submit" value="Sign up"></a>
 				<script src='databases.js'></script> 
 			</div>
-			<div class="mission" ><h2 id="bigFont">So the meadows are <div id="greenFont">green</div> for your children's children.</h2></div>
+			<div class="mission" ><h2 id="bigFont">So the meadows are <div id="greenFont">GREEN</div> for your children's children.</h2>
+			<br>
+			<p id="bigFont"> The mission of DripDrop is to reduce water usage and promote conservation in California in order to ensure a sustainable future for the next generation. </p>
+			<br>
+			<br>
+			<img src = "http://i58.tinypic.com/2ykz2qh.png" alt="Hill"> 
+			</div>
 	 	</div></center>
 
+	 	
+	 	
 		<div class="content">
 			<div class = "filler"> </div>
 			<div class="profilepage">
@@ -200,31 +215,18 @@
 				<center><span style="cursor:pointer"><h3>Latest News</h3></span></center>
 			</div>
 			<div class = "newspage2">
-				<center><table style = "width:85%">
+				<center><table style = "width:90%">
 					<tr>
-						<td style = "width:20%"><center><!-- <a href= "http://www.huffingtonpost.com/entry/california-orders-farmers-to-stop-pumping-water_55a83edfe4b04740a3df8f7e?utm_hp_ref=california-drought" target="_blank"> --> <img src="http://img.huffingtonpost.com//asset/scalefit_630_noupscale/55a83f8e1200002b00135386.jpeg" alt="Article"></a></center></td>
-						<td style = "width:20%"><center><!-- <a href= "https://www.facebook.com/attn/videos/901254679909992/" target="_blank"> <img src="http://www.synlawn.com/wp-content/uploads/2014/02/california-drought-water-emergency.jpg" alt="Article"></a> --></center></td>
-						<td style = "width:20%"><center><a href= "http://www.mnn.com/earth-matters/wilderness-resources/blogs/how-extensive-is-californias-drought-compare-the-photos?utm_source=huffingtonpost.com&utm_medium=referral&utm_campaign=pubexchange_article" target="_blank"> <img src="http://media.mnn.com/assets/images/2014/08/california-drought.jpg" alt="Article"></a></center></td>
-						<td style = "width:20%"><center><a href= "http://sanfrancisco.cbslocal.com/2014/07/03/extreme-drought-conditions-force-santa-clara-county-water-officials-to-let-los-gatos-creek-go-dry/" target="_blank"> <img src="https://cbssanfran.files.wordpress.com/2014/07/reservoir.jpg?w=620&h=349&crop=1" alt="Article"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://www.huffingtonpost.com/entry/california-orders-farmers-to-stop-pumping-water_55a83edfe4b04740a3df8f7e?utm_hp_ref=california-drought" target="_blank"> <img src="http://i60.tinypic.com/a304zb.png" alt="Article" style="width:95%"></a></center></td>
+						<td style = "width:20%"><center><a href= "https://www.facebook.com/attn/videos/901254679909992/" target="_blank"> <img src="http://i62.tinypic.com/2vsn8zs.png" alt="Article" style="width:95%"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://www.mnn.com/earth-matters/wilderness-resources/blogs/how-extensive-is-californias-drought-compare-the-photos?utm_source=huffingtonpost.com&utm_medium=referral&utm_campaign=pubexchange_article" target="_blank"> <img src="http://i57.tinypic.com/21b3vgi.png" alt="Article" style="width:95%"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://sanfrancisco.cbslocal.com/2014/07/03/extreme-drought-conditions-force-santa-clara-county-water-officials-to-let-los-gatos-creek-go-dry/" target="_blank"> <img src="http://i59.tinypic.com/f3xn2c.png" alt="Article" style="width:95%"></a></center></td>
 					</tr>
 					<tr>
-						<td><center><h4><a href= "http://www.huffingtonpost.com/entry/california-orders-farmers-to-stop-pumping-water_55a83edfe4b04740a3df8f7e?utm_hp_ref=california-drought" target="_blank">California Orders Farmers to Stop Pumping Water</a></h4></center></td>
-						<td><center><h4><blockquote cite="https://www.facebook.com/attn/videos/901254679909992/">
-						<a href="https://www.facebook.com/attn/videos/901254679909992/" target="_blank">VIDEO</a><br>California is Literally Sinking</h4></center></td>
-						<td><center><h4>How Extensive Is California's Drought? Compare The Photos</h4></center></td>
-						<td><center><h4>Local Extreme Drought Conditions Force Santa Clara County Water Officials To Let Los Gatos Creek Go Dry</h4></center></td>
-					</tr>
-					<tr>
-						<td style = "width:20%"><center><a href= "http://www.sfchronicle.com/science/article/Running-dry-How-the-drought-is-forging-a-new-6324313.php" target="_blank"> <img src="http://ww3.hdnux.com/photos/36/26/51/7957082/13/920x1240.jpg" alt="Article"></a></center></td>
-						<td style = "width:20%"><center><a href= "http://www.huffingtonpost.com/entry/wildfires-rage-on-across-california_55bec4c5e4b0d4f33a03313b?utm_hp_ref=california-drought" target="_blank"> <img src="http://img.huffingtonpost.com//asset/scalefit_630_noupscale/55bec5ec1400002e002e1b21.jpeg" alt="Article"></a></center></td>
-						<td style = "width:20%"><center><a href= "http://www.nytimes.com/2015/04/05/us/california-drought-tests-history-of-endless-growth.html?_r=1" target="_blank"> <img src="http://extras.mnginteractive.com/live/media/site568/2015/0623/20150623__sjm-toilettap-0624~1.JPG" alt="Article"></a></center></td>
-						<td style = "width:20%"><center><a href= "http://cdec.water.ca.gov/cdecapp/resapp/getResGraphsMain.action" target="_blank"> <img src="http://cdec.water.ca.gov/cdecapp/images/barchartlegend.jpg" alt="Article"></a></center></td>
-					</tr>
-					<tr>
-						<td><center><h4>Running Dry: How the Drought is Forging a New California</h4></center></td>
-						<td><center><h4>Wildfires Rages on Across California</h4></center></td>
-						<td><center><h4>California Drought Tests History of Endless Growth</h4></center></td>
-						<td><center><h4>Reservoir Tracker</h4></center></td>
+						<td style = "width:20%"><center><a href= "http://www.sfchronicle.com/science/article/Running-dry-How-the-drought-is-forging-a-new-6324313.php" target="_blank"> <img src="http://i57.tinypic.com/6fs6k2.png" alt="Article" style="width:95%"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://www.huffingtonpost.com/entry/wildfires-rage-on-across-california_55bec4c5e4b0d4f33a03313b?utm_hp_ref=california-drought" target="_blank"> <img src="http://i58.tinypic.com/65tyye.png" alt="Article" style="width:95%"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://www.nytimes.com/2015/04/05/us/california-drought-tests-history-of-endless-growth.html?_r=1" target="_blank"> <img src="http://i62.tinypic.com/2upwyrs.png" alt="Article" style="width:95%"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://cdec.water.ca.gov/cdecapp/resapp/getResGraphsMain.action" target="_blank"> <img src="http://i59.tinypic.com/1zdp66q.png" alt="Article" style="width:95%"></a></center></td>
 					</tr>
 				</table></center>
 			</div>
@@ -250,7 +252,9 @@
 			<center><h3><span style="cursor:pointer">Useful Conservation Tips</h3></center>
 		</div>
 		<div class="tips2">
-			<h2>Tips for Kids</h2>
+			<center>
+<!-- 			<img src="http://i57.tinypic.com/35a4sci.jpg" id="swagMoney" height="100">
+ -->			<h2>Tips for Kids</h2>
 			<h4>Fill up a cup of water instead of using the sink when brushing your teeth.</h4>
 			<h4>Listen to music while you take a shower--challenge yourself and see if you can finish your shower within 3 songs!</h4>
 			<h4>Instead of dumping your old drinking water in the sink, use it water your plants!</h4>
@@ -337,5 +341,6 @@
 	</body>
 
 </html>
+
 
 
