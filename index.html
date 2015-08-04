@@ -1,0 +1,341 @@
+<!DOCTYPE html> 
+
+<html>
+	
+	<title>DripDrop</title>
+	
+	<head lang="en">
+		<meta charset=utf-8/>
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+		<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+		<script src="tabletopData.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	    <meta charset="UTF-8">
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="dripdrop.css">
+	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	    <script src="dripdrop.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<div class="loading">
+	   	 	<div class="container">  
+		     	<div class="drop"></div>
+		      	<div class="drop"></div>
+		      	<div class="puddle"></div>
+		        <div class="sink"></div>
+		        <div class="ripple"></div>
+		        <div class="ripple"></div>
+		        <div class="ripple"></div>
+		        <div class="sink"></div>
+		        <div class="ripple"></div>
+		      	<div class="drop"></div>
+		      	<div class="drop"></div>
+			  	<div class="footer">The DripDrop Team</div>
+	    	</div>
+		</div>
+		
+		<div class = "title">
+			<center><input id="logobutton" type="image" src="http://oi60.tinypic.com/w1b637.jpg" alt="logobutton" width="200px" height="auto">
+				<table>
+					<tr>
+						<td style="width:60px"> <input id="calculatorbutton" type="image" src="http://iconizer.net/files/Devine_icons/orig/Calculater.png" alt="calculatorbutton" width="40" height="40"> </td>
+						<td style="width:60px"> <input id="newsbutton" type="image" src="http://www.clker.com/cliparts/M/b/g/K/G/F/simple-newspaper-md.png" width="35" height="35"> </td>
+						<td style="width:73px"> <input id="gamebutton" type="image" src="http://uxrepo.com/static/icon-sets/ionicons/svg/game-controller-b.svg" alt="gamebutton" width ="50" height="50"> </td>
+						<td style="width:60px"> <input id="profilebutton" type="image" src="https://cdn3.iconfinder.com/data/icons/black-easy/512/535106-user_512x512.png" alt="profilebutton" width="35" height="35"> </td>
+						<td style="width:60px"><input id="aboutusbutton" type="image" src="http://i57.tinypic.com/280nqxx.png" alt="aboutusbutton" width="45" height="35"></td>
+					</tr>
+				</table></center>
+			<center><div class = "login">
+				<h2> Welcome! </h2>
+				Username: <input type="text" id="un" name="Username"><br>
+				Password: <input type="password" id="pwd" name="Password"></br><br>
+				<input id="submit" type="submit" value="Sign in"> 
+				<a href="https://docs.google.com/a/kippbastudent.org/forms/d/1JV5-3tUrylWU6ZZ3oeN7nbOc0O4pTYS3vdeL3e9C4wc/viewform"><input id = "submit" type = "submit" value="Sign up"></a>
+				<script src='databases.js'></script> 
+			</div>
+			<div class="mission" ><h2 id="bigFont">So the meadows are <div id="greenFont">green</div> for your children's children.</h2></div>
+	 	</div></center>
+
+		<div class="content">
+			<div class = "filler"> </div>
+			<div class="profilepage">
+				<center> <h1>USER PROFILE</h1>
+				<table style = "width:65%">
+					<tr>
+						<td><center><h3>Name: Jane Doe </h3></center></td>
+						<td><center><h3>Daily Goal: 65 Gallons or Less</h3></center</td>
+					</tr>
+				</table></center>
+				<center><h3>Badges Earned</h3></center>
+				<center><table style = "width:60%">
+					<tr>
+						<td><center><img src="http://i57.tinypic.com/10pbkba.png" alt="Welcome Badge" style="width:175px;"></center></td>
+						<td><center><img src="http://i57.tinypic.com/5ueipw.png" alt="Calculator Badge" style="width:175px;"></center></td>
+						<td><center><img src="http://i58.tinypic.com/34458xj.png" alt="News Badge" style="width:175px;"></center></td>
+					</tr>
+					<tr>
+						<td><center><p>Nifty Newbie</p></center></td>
+						<td><center><p>Calculator Crazy</p></center></td>
+						<td><center><p>Radical Reader</p></center></td>
+					</tr>
+					<tr>
+						<td><center><img src="http://i62.tinypic.com/eq759u.png" alt="Rain Runner Badge" style="width:175px;"></center></td>
+						<td><center><img src="http://i59.tinypic.com/nmm4jr.png" alt="Cool Catcher Badge" style="width:175px;"></center></td>
+						<td><center><img src="http://i62.tinypic.com/n56es9.png" alt="Trivia Badge" style="width:175px;"></center></td>
+					</tr>
+					<tr>
+						<td><center><p>Rain Runner Rockstar</p></center></td>
+						<td><center><p>Cool Catcher</p></center></td>
+						<td><center><p>Trivia Talent</p></center></td>
+					</tr>
+					<tr>
+						<td><center><img src="http://i61.tinypic.com/2dwc6ro.png" alt="Conservation Badge" style="width:175px;"></center></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td> <center><p>Certified Conservationist</p></center></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table></center>
+		</div>
+
+		<div class = "calculatorpage">
+			<center><h1>WATER USAGE CALCULATOR</h1>
+			<h4> To start, click on any of the buttons below. </h4> <br>
+			<table style = "width:55%">
+				<tr>
+					<td><center><input id="showerbutton" type="image" src="http://i58.tinypic.com/102qryu.png" alt="Shower" width="125" height="125"></center></td>
+					<td><center> <input id = "toiletbutton" type = "image" src="http://i60.tinypic.com/35becy1.png" alt="Toilet" width="125" height="125"> </center> </td>
+					<td> <center> <input id = "laundrybutton" type = "image" src="http://i62.tinypic.com/rac7sm.png" alt="Laundry" width="125" height="125"> </center></td>
+				</tr>
+				<tr>
+					<td><center><p>Shower</p></center></td>
+					<td><center><p>Toilet</p></center></td>
+					<td><center><p>Laundry</p></center></td>
+				</tr>
+			</table>
+			<table style = "width:40%">
+				<tr>
+					<td> <center> <input id = "dishwasherbutton" type = "image" src="http://i61.tinypic.com/2z6igw1.png" alt="Dishwasher" width="125" height="125"> </center> </td>
+					<td> <center> <input id = "generalbutton" type = "image" src="http://i60.tinypic.com/2q34so8.png" alt="Other" width="125" height="125"> </center> </td>
+				</tr>
+				<tr>
+					<td><center><p>Dishwasher</p></center></td>
+					<td><center><p>Other</p></center></td>
+				</tr>
+			</table> </center>
+		</div>
+
+		<div class = "calculatorpage">
+			<div class = "shower">
+				<center> <h3>Shower</h3> </center>			
+				<center> <input  id="showerbutton" type="image" src="http://i58.tinypic.com/102qryu.png" alt="Shower" width="250" height="250"> </center>
+				<center><label for=fader> Minutes </label></center>
+				<input type=range class="cool" min=0 max=60 value=0 id=fader step=1 oninput="s_outputUpdate(value); s_gallons();"></input>
+				<center><output for=fader id="s_volume">0</output></br></center>
+				<center><p id="s"></p></center>
+				<center><a href="#top"><button type="button" class="btn btn-default">Back to Top</button></a></center>
+			</div>
+			
+			<div class = "toilet">
+				<center><h3>Toilet</h3></center>
+				<center><input id="toiletbutton" type="image" src="http://i60.tinypic.com/35becy1.png" alt="Toilet" width="250" height="250"></center>
+				<center><label for=fader>Flushes </label>
+				<input type=range class="cool" min=0 max=30 value=0 id=fader step=1 oninput="t_outputUpdate(value); t_gallons();"></input>
+				<output for=fader id="t_volume">0</output></br>
+				<p id="t"></p></center>
+				<center><a href="#top"><button type="button" class="btn btn-default">Back to Top</button></a></center>
+			</div>
+			
+			<div class="laundry">
+				<center><h3>Laundry</h3></center>
+				<center><input id="laundrybutton" type="image" src="http://i62.tinypic.com/rac7sm.png" alt="Laundry" width="250" height="250"></center>
+				<center><label for=fader>Loads </label>
+				<input type=range class="cool" min=0 max=5 value=0 id=fader step=1 oninput="l_outputUpdate(value); l_gallons();"></input>
+				<output for=fader id="l_volume">0</output></br>
+				<p id="l"></p></center>
+				<center><a href="#top"><button type="button" class="btn btn-default">Back to Top</button></a></center>
+			</div>
+
+			<div class="dishwasher">
+				<center><h3>Dishwasher</h3></center>
+				<center><input id="dishwasherbutton" type="image" src="http://i61.tinypic.com/2z6igw1.png" alt="Dishwasher" width="250" height="250"></center>
+				<center><label for=fader>Loads </label>
+				<input type=range class="cool" min=0 max=5 value=0 id=fader step=1 oninput="d_outputUpdate(value); d_gallons();"></input>
+				<output for=fader id="d_volume">0</output></br>
+				<p id="d"></p></center>
+				<center><a href="#top"><button type="button" class="btn btn-default">Back to Top</button></a></center>
+			</div>
+
+			<div class="general">
+				<center><h3>Other</h3></center>
+				<center><input id="generalbutton" type="image" src="http://i60.tinypic.com/2q34so8.png" alt="Other" width="250" height="250"></center>
+				<center><label for=fader>Minutes</label>
+				<input type=range class="cool" min=0 max=200 value=0 id=fader step=1 oninput="g_outputUpdate(value); g_gallons();"></input>
+				<output for=gader id="g_volume">0</output></br>
+				<p id ="g"></p></center>
+				<center><a href="#top"><button type="button" class="btn btn-default">Back to Top</button></a></center>
+			</div>
+
+			<div class="total">
+				<!-- <center><h3>Total Water Usage</h3></center> -->
+				<center><button type="button" class="btn btn-primary btn-lg" onclick = "total_gallons()">TOTAL</button></center>
+				<center><p id = "tot"></p></center>
+				<center><a href="#top"><button type="button" class="btn btn-default">Back to Top</button></a></center>
+			</div>
+		</div>
+	</div>
+
+		<div class="newspage">
+			<div id = "newspageheader">
+				<center><h1>DROUGHT NEWS</h1>
+			</div>
+			<div class="newspage1">
+				<center><span style="cursor:pointer"><h3>Latest News</h3></span></center>
+			</div>
+			<div class = "newspage2">
+				<center><table style = "width:85%">
+					<tr>
+						<td style = "width:20%"><center><!-- <a href= "http://www.huffingtonpost.com/entry/california-orders-farmers-to-stop-pumping-water_55a83edfe4b04740a3df8f7e?utm_hp_ref=california-drought" target="_blank"> --> <img src="http://img.huffingtonpost.com//asset/scalefit_630_noupscale/55a83f8e1200002b00135386.jpeg" alt="Article"></a></center></td>
+						<td style = "width:20%"><center><!-- <a href= "https://www.facebook.com/attn/videos/901254679909992/" target="_blank"> <img src="http://www.synlawn.com/wp-content/uploads/2014/02/california-drought-water-emergency.jpg" alt="Article"></a> --></center></td>
+						<td style = "width:20%"><center><a href= "http://www.mnn.com/earth-matters/wilderness-resources/blogs/how-extensive-is-californias-drought-compare-the-photos?utm_source=huffingtonpost.com&utm_medium=referral&utm_campaign=pubexchange_article" target="_blank"> <img src="http://media.mnn.com/assets/images/2014/08/california-drought.jpg" alt="Article"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://sanfrancisco.cbslocal.com/2014/07/03/extreme-drought-conditions-force-santa-clara-county-water-officials-to-let-los-gatos-creek-go-dry/" target="_blank"> <img src="https://cbssanfran.files.wordpress.com/2014/07/reservoir.jpg?w=620&h=349&crop=1" alt="Article"></a></center></td>
+					</tr>
+					<tr>
+						<td><center><h4><a href= "http://www.huffingtonpost.com/entry/california-orders-farmers-to-stop-pumping-water_55a83edfe4b04740a3df8f7e?utm_hp_ref=california-drought" target="_blank">California Orders Farmers to Stop Pumping Water</a></h4></center></td>
+						<td><center><h4><blockquote cite="https://www.facebook.com/attn/videos/901254679909992/">
+						<a href="https://www.facebook.com/attn/videos/901254679909992/" target="_blank">VIDEO</a><br>California is Literally Sinking</h4></center></td>
+						<td><center><h4>How Extensive Is California's Drought? Compare The Photos</h4></center></td>
+						<td><center><h4>Local Extreme Drought Conditions Force Santa Clara County Water Officials To Let Los Gatos Creek Go Dry</h4></center></td>
+					</tr>
+					<tr>
+						<td style = "width:20%"><center><a href= "http://www.sfchronicle.com/science/article/Running-dry-How-the-drought-is-forging-a-new-6324313.php" target="_blank"> <img src="http://ww3.hdnux.com/photos/36/26/51/7957082/13/920x1240.jpg" alt="Article"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://www.huffingtonpost.com/entry/wildfires-rage-on-across-california_55bec4c5e4b0d4f33a03313b?utm_hp_ref=california-drought" target="_blank"> <img src="http://img.huffingtonpost.com//asset/scalefit_630_noupscale/55bec5ec1400002e002e1b21.jpeg" alt="Article"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://www.nytimes.com/2015/04/05/us/california-drought-tests-history-of-endless-growth.html?_r=1" target="_blank"> <img src="http://extras.mnginteractive.com/live/media/site568/2015/0623/20150623__sjm-toilettap-0624~1.JPG" alt="Article"></a></center></td>
+						<td style = "width:20%"><center><a href= "http://cdec.water.ca.gov/cdecapp/resapp/getResGraphsMain.action" target="_blank"> <img src="http://cdec.water.ca.gov/cdecapp/images/barchartlegend.jpg" alt="Article"></a></center></td>
+					</tr>
+					<tr>
+						<td><center><h4>Running Dry: How the Drought is Forging a New California</h4></center></td>
+						<td><center><h4>Wildfires Rages on Across California</h4></center></td>
+						<td><center><h4>California Drought Tests History of Endless Growth</h4></center></td>
+						<td><center><h4>Reservoir Tracker</h4></center></td>
+					</tr>
+				</table></center>
+			</div>
+			
+		<div class = "legislation" id="relatedlegislation">
+			<center><h3><span style="cursor:pointer">Related Legislation</h3></span></center>
+		</div>
+		
+		<div class="legislation2">
+			<h2>New Groundwater Legislation, Sustainable Groundwater Management Act</h2>
+			<h4>A three-bill legislative package, the Sustainable Groundwater Management Act recognizes that groundwater management in California is best accomplished locally.</h4>
+			<h2>California Water Code, Groundwater Management</h2>
+			<h4>The intent of the Groundwater Management Act is to encourage local agencies to work cooperatively to manage groundwater resources within their jurisdictions and to provide a methodology for developing a Groundwater Management Plan.</h4>
+			<h2>Assembly Bill 3030 (AB 3030)</h2>
+			<h4>AB 3030 was signed into law in 1992 and provides a systematic procedure for an existing local agency to develop a Groundwater Management Plan.</h4>
+			<h2>Senate Bill 1938 (SB 1938)</h2>
+			<h4>SB 1938 modified the Groundwater Management Act by requiring any public agency seeking State funds administered through DWR for the construction of groundwater projects to prepare and implement a Groundwater Management Plan with specified required components. </h4>
+			<h2>Bulleting 118 Update</h2>
+			<h4>The California Budget Act of 1999 authorized the update to Bulletin 118 and directed the California Department of Water Resources (DWR) to complete several tasks, including developing criteria for evaluating groundwater management plans and developing a model groundwater management ordinance.</h4>
+		</div>
+			
+		<div class = "tips">
+			<center><h3><span style="cursor:pointer">Useful Conservation Tips</h3></center>
+		</div>
+		<div class="tips2">
+			<h2>Tips for Kids</h2>
+			<h4>Fill up a cup of water instead of using the sink when brushing your teeth.</h4>
+			<h4>Listen to music while you take a shower--challenge yourself and see if you can finish your shower within 3 songs!</h4>
+			<h4>Instead of dumping your old drinking water in the sink, use it water your plants!</h4>
+			<h2>Tips for Teens/Adults</h2>
+			<h4>Leave grass clippings on your lawn after you mow it--this helps cool the ground and retain moisture for a longer period of time.</h4>
+			<h4> Put food coloring in your toilet tank--if it seeps through to the bowl within 30 minutes (without flushing), then you have a leak! Fixing it can save you A TON of water!</h4>
+			<h4> Do your laundry in large loads with cold water. Using cold water instead of warm water will save you 15 times the energy, which can greatly cut down your energy and water bills. </h4>
+			<h4> Eat one vegetarian meal a day. Replacing just 4 OUNCES of beef with vegetables a week can save more than 3,000 GALLONS of water! </h4>
+		</div>
+	</div>
+	
+		<div class = "gamepage">
+			<center><h1> GAMES </h1>
+			<h2>Running Rain</h2>
+			<h4>Help out Mr. Crab by catching the clear water droplets and reusable water bottles while avoiding the acid rain and the plastic!</h4>
+			<h4>Complete this game to earn the "Rain Runner Rockstar" badge.</h4>
+			<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/71906808/?autostart=false" frameborder="0" allowfullscreen></iframe>
+			<br>
+			<h2>Save the Droplet</h2>
+			<h4>Don't let the droplet fall to the ground! </h4>
+			<h4>Play this game to earn the "Cool Catcher" badge. </h4>
+			<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/71906178/?autostart=false" frameborder="0" allowfullscreen></iframe>
+			<br>
+			<h2>Trivia</h2>
+			<h4>Finish this fun trivia quiz to earn the "Trivia Talent" badge! </h4>
+			 <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/72165440/?autostart=false" frameborder="0" allowfullscreen></iframe>
+			</center>
+		</div>
+
+		<div class = "aboutuspage">
+			<center><h1> ABOUT US </h1>
+			<table style = "width:95%">
+				<tr>
+					<td style = "width:33%">
+					<center><img src="http://i57.tinypic.com/35a4sci.jpg" id="swagMoney" height="100">
+					<h3>Maggie Chang</h3></center>
+					</td>
+					<td style = "width:33%">
+						<center><img src="http://i59.tinypic.com/303hdgn.jpg" id="swagMoney">
+						<h3>Camille Daszynski</h3></center>
+					</td>
+					<td style = "width:33%">
+						<center><img src="http://i58.tinypic.com/ubv3c.jpg" id="swagMoney">
+						<h3>Diana Vazquez</h3></center>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<center><p id="bioBio">Maggie Chang is an 11th grader from San Francisco. She is one of 20 of the Girls Who Code Intuit individuals who learned how to code in 7 weeks. Her favorite part of the 7 week program was web development because of the customizable features. Because she liked the markup languages CSS and HTML, she worked on the front end section of DripDrop. She primarily created icons and styled many other functions in the app. Maggie is passionate about water conservation and would like to continue to promote drought awareness. In the future, Maggie wants to continue to work on the DripDrop app and create a health app called SHAPE. Outside of Maggie’s coding life, she enjoys competitive piano, evangelizing, and listening to the classical composer, Kuhlau.</p></center>
+					</td>
+					<td>
+						<center><p id="bioBio">Camille Daszynski is a rising senior in San Jose, California. Although she thoroughly enjoyed every moment of her time with Girls Who Code at Intuit, her favorite parts of the program included meeting new individuals with a shared passion in STEM as well as utilizing her new skills in a group setting to make her imaginations a reality. Camille worked on the back-end of the DripDrop hybrid app in addition to creating the interactive games found within it. She hopes to continue strengthening her coding skills in university and to build her own recipe-filtering app, Simmer Simmer Chicken Dinner, within the near future.  <br><br><br><br><br></p> </center>
+					</td>
+					<td>
+						<center><p id="bioBio">Diana Vazquez is a twelfth grader from San Jose, California. As one of the girls at Girls Who Code Intuit she learned to code in Python, HTML, and JavaScript and has chosen to continue learning coding. Her favorite part of the 7 week program was getting the opportunity to learn coding and have it as one her skills. She enjoyed week 3 which was animation and graphics. She hopes to continue coding so in the future she can become an animator possibly at Pixar or Disney Imagineering.<br><br><br><br><br><br><br></p></center>
+					</td>
+				</tr>	
+			</table>
+			<br>
+			<br>
+			<table style = "width:65%">
+				<tr>
+					<td style = "width:50%">
+						<center><img src="http://i59.tinypic.com/w2n76x.jpg" id="swagMoney">
+						<h2>Elise Xu</h2></center>
+					</td>
+					<td>
+						<center><img src="http://i57.tinypic.com/k48ljp.jpg" id="swagMoney">
+						<h2>Isabelle Zhou</h2></center>
+						
+					</td>
+				</tr>
+				<tr>
+					<td style = "width:50%">
+						<center><p id="bioBio">Elise is a South Bay senior. She worked on DripDrop’s backend, and she loves working with girls who empower her to be the best version of herself. Elise likes understanding how things work and making them pretty, so she hopes to be a full stack engineer. In the future she wants to create Catback, an app that bands people together against catcalls. <br><br><br><br><br><br><br><br></p> </center>
+					</td>
+					<td>
+					<center><p id="bioBio">Isabelle Zhou is a junior from Irvine, California. Although she enjoyed every moment of this summer, she especially liked the experience of connecting with like-minded peers and adults while improving her  programming skills. She worked primarily with DripDrop’s front end, styling the hybrid app while designing the graphics. In addition, she edited the functionality of several back end features such as the water usage calculator, the live drought alerts, and the profile page. Isabelle is interested in the intersection of technology and business, and she looks forward to continue programming far into the future. She hopes become a social entrepreneur and start her own company one day.  </p> </center>
+					</td>
+				</tr>
+			</table>
+			</center>
+		</div>
+	</body>
+
+</html>
+
+

@@ -1,0 +1,433 @@
+#logo {
+  width: 200px;
+  height: auto;
+}
+img {
+  width: 50%;
+  height: auto;
+}
+
+#swagMoney {
+  width: 250px;
+  height: auto;
+}
+
+.aboutuspage{
+  padding-top: 20px;
+  display: none;
+}
+
+#bioBio {
+  padding: 0px, 0px;
+}
+
+body {
+  background: rgba(102, 224, 255, 0.8);
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+p{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h2{
+  font-family: 'Roboto',sans-serif;
+  font-size: 25px;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+}
+
+#tips {
+  font-size: 140%;
+}
+
+#green{
+  color: rgb(0, 102, 0);
+}
+
+/*.gamepage{
+  display: none;
+}*/
+
+#footer {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 140%;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  top:90%; bottom:0; right:0; left:0;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #36C1D6;
+}
+
+.container {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #70ECFF;
+}
+
+.drop {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  top:0px; bottom:0; right:0; left:0;
+  background-color: #36C1D6;
+  border-radius: 50% 1px 50% 50%;
+  -webkit-transform: rotate(-45deg);  
+  -webkit-animation: drip 0.4s linear;
+}
+
+ .drop:nth-child(2) {  
+  border-radius: 50%;
+  -webkit-transform: rotate(0deg);
+  -webkit-animation: bounce 0.55s 0.8s linear;
+} 
+
+.drop:nth-child(4) {  
+  border-radius: 50%;
+  -webkit-transform: rotate(45deg);
+  -webkit-animation: splash-right 0.55s 1.2s linear;
+}
+
+.drop:nth-child(5) {  
+  border-radius: 50%;
+  -webkit-transform: rotate(45deg);
+  -webkit-animation: splash-left 0.55s 1.2s linear;
+}
+
+.sink {
+  position: absolute;
+  opacity: 1; 
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  top:0; bottom:0; right:0; left:0;
+  background-color: #36C1D6;
+  border-radius: 50%;
+  -webkit-animation: sink 0.6s 0.35s ease-out;
+}  
+.sink:nth-child(5) {    
+  -webkit-animation: sink 0.5s 1.3s ease-out;
+}
+      
+.ripple { 
+  position: absolute;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  top:0; bottom:0; right:0; left:0;
+  border: #36C1D6 solid 1px;
+  border-radius: 50%;
+  -webkit-animation: ripple 0.55s 0.4s linear;
+}
+.ripple:nth-child(2) {
+  -webkit-animation: ripple 0.55s 0.6s linear;
+}
+.ripple:nth-child(3) {
+  -webkit-animation: ripple 0.55s 1.2s linear;
+}  
+.ripple:nth-child(7) {
+  -webkit-animation: ripple 0.55s 1.4s linear;
+}  
+
+@-webkit-keyframes drip {
+ 0% {
+    width: 0px;
+    height: 0px;
+    top: -300px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+    top: -100px;
+  }
+  100% { 
+    width: 20px;
+    height: 20px; 
+    top: 10px;
+  }
+}
+ 
+@-webkit-keyframes bounce {
+ 0% {
+    width: 0px;
+    height: 0px;
+    top: 10px;
+  }
+  40% {
+    width: 10px;
+    height: 10px;
+    top: -100px;
+  } 
+  100% {
+    width: 10px;
+    height: 10px; 
+    top: 0px;
+  }
+} 
+@-webkit-keyframes splash-right {
+ 0% {
+   opacity: 1;
+    width: 0px;
+    height: 0px;
+    top: 10px;
+  }
+  60% {
+    opacity: 1;
+    width: 6px;
+    height: 6px;
+    top: -80px;
+    left: 50px;
+  }
+  100% {
+    opacity: 0;
+    width: 6px;
+    height: 6px;
+    top: -70px;
+    left: 80px;
+  }
+}
+
+@-webkit-keyframes splash-left {
+ 0% {
+   opacity: 1;
+    width: 0px;
+    height: 0px;
+    top: 10px;
+  }
+  60% {
+    opacity: 1;
+    width: 6px;
+    height: 6px;
+    top: -60px;
+    left: -50px;
+  }
+  100% {
+    opacity: 0;
+    width: 6px;
+    height: 6px;
+    top: -40px;
+    left: -80px;
+  }
+}
+
+@-webkit-keyframes sink {
+  0% {
+    opacity: 1;
+    width: 0px;
+    height: 0px;
+  }
+  50% {
+    opacity: 1;
+    width: 40px; 
+    height: 10px;
+  }
+  100% {
+    opacity: 0; 
+    width: 0px; 
+    height: 0px;
+  }
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    opacity: 1;
+    width: 60px;
+    height:10px;
+  }
+  100% {
+    opacity: 0; 
+    width: 200px;  
+    height: 20px;
+  }
+}
+
+input.cool {
+  -webkit-appearance: none;
+  background-color: #FFCCFF;
+  width: 250px;
+  height:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title{
+  padding-top: 5px;
+  background-color: rgba(252,252,255,0.95);
+  padding-bottom: 25px;
+  position: fixed;
+  width:100%;
+  height:230px;
+  display: none;
+}
+
+.filler{
+  padding-top:25px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+  width:100%;
+  height:215px;
+}
+
+.profilepage{
+  display: none;
+}
+
+.calculatorpage{
+  padding-top: 25px;
+  background-color: rgba(255,255,255,0);
+  padding-bottom: 25px;
+  display: none;
+}
+
+.shower{
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+}
+
+.toilet{
+  padding-top: 15px;
+  background-color: rgba(102, 224, 255, 0.7);
+  padding-bottom: 25px;
+}
+
+.laundry{
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+}
+
+.dishwasher {
+  padding-top: 15px;
+  background-color: rgba(102, 224, 255, 0.7);
+  padding-bottom: 25px;
+}
+
+.general {
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+}
+
+.total {
+  padding-top: 15px;
+  background-color: rgba(102, 224, 255, 0.7);
+  padding-bottom: 25px;
+}
+
+.newspage{
+  padding-top:20px;
+  background-color: rgba(102, 224, 255, 0.7);
+  display: none;
+}
+
+#newspageheader{
+  padding-top:5px;
+  padding-bottom:25px;
+  background-color: rgba(102, 224, 255, 0.7);
+}
+
+.newspage1{
+  padding-top:15px;
+  padding-bottom:25px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.newspage2{
+  padding-top:15px;
+  padding-bottom:25px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.news{
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+}
+
+.legislation{
+  padding-top: 15px;
+  background-color: rgba(102, 224, 255, 0.7);
+  padding-bottom: 25px;
+}
+
+.legislation2{
+  padding-top: 15px;
+  background-color: rgba(102, 224, 255, 0.7);
+  padding-bottom: 25px;
+}
+
+.tips{
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+}
+
+.tips2{
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 25px;
+}
+
+.profilepage{
+  padding-top: 20px;
+  display: none;
+}
+
+.gamepage{
+  padding-top: 20px;
+  display: none;
+}
+
+.mission{
+  display: none;
+}
+
+#greenFont {
+  color: #00CC00;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 250%;
+}
+
+#bigFont {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 250%;
+  color: #000000;
+}
+
+.login{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size:15px;
+    display: none;
+    padding-top:15px;
+    padding-bottom:25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+
+
